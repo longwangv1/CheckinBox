@@ -18,8 +18,8 @@ jobs:
      - name: main
        env:
          SCKEY: ${{ secrets.SCKEY }}
-         username: ${{ secrets.username }}
-         password: ${{ secrets.password }}
+         username: ${{ secrets.cloud_username }}
+         password: ${{ secrets.cloud_password }}
          fflogin_name: ${{ secrets.fflogin_name }}
          fflogin_password: ${{ secrets.fflogin_password }}
          area_name: ${{ secrets.area_name }}
